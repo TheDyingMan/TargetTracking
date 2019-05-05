@@ -1,0 +1,54 @@
+# 视频的帧宽度、帧高度
+frameWidth = 640
+frameHeight = 480
+
+# 视频的名字，用于判定是否使用摄像头，用于输出两张图的文件名
+sequenceName = BlurBody
+
+# 视频的地址
+# 视频的序列帧地址 （把帧文件中的序号换成%0xd，其中x为序号的位数，如"jay0001chen.jpg",替换为"jay%04dchen.jpg"）
+videoPath = ./DataSet/OTB/BlurBody/img/%04d.jpg
+
+#groundtruth文件路径
+groundtruthPath = ./DataSet/OTB/BlurBody/groundtruth_rect.txt
+
+#precision Rate图的保存路径
+precisionRateDiagramSavingPath = ./DataSet/OTB/BlurBody/
+
+#success Rate图的保存路径
+successRateDiagramSavingPath = ./DataSet/OTB/BlurBody/
+
+# quiet mode disables all visual output (for experiments).
+quietMode = 0
+
+# debug mode enables additional drawing and visualization.
+debugMode = 1
+
+# base path for video sequences.
+sequenceBasePath = sequences
+
+# path for output results file.
+# comment this out to disable output.
+#resultsPath = log.txt
+
+# seed for random number generator.
+seed = 0
+
+# tracker search radius in pixels.
+searchRadius = 30
+
+# SVM regularization parameter.
+svmC = 100.0
+# SVM budget size (0 = no budget).
+svmBudgetSize = 100
+
+# image features to use.
+# format is: feature kernel [kernel-params]
+# where:
+#   feature = haar/raw/histogram
+#   kernel = gaussian/linear/intersection/chi2
+#   for kernel=gaussian, kernel-params is sigma
+# multiple features can be specified and will be combined
+feature = haar gaussian 0.2
+#feature = raw gaussian 0.1
+#feature = histogram intersection

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphUtils\GraphUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Features.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HaarFeature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HaarFeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HistogramFeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageRep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kernels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LaRank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MultiFeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RawFeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sampler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vot.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TLD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Features.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HaarFeature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HaarFeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HistogramFeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageRep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LaRank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MultiFeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RawFeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sampler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphUtils\GraphUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\STRUCK_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
