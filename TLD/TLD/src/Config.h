@@ -65,6 +65,8 @@ public:
 	bool							quietMode;
 	bool							debugMode;
 	
+	bool							XYWidthHeight;
+
 	std::string						sequenceBasePath;
 	std::string						sequenceName;
 	std::string						resultsPath;

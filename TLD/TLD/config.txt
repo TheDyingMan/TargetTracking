@@ -3,20 +3,24 @@ frameWidth = 640
 frameHeight = 480
 
 # 视频的名字，用于判定是否使用摄像头，用于输出两张图的文件名
-sequenceName = BlurBody
+sequenceName = Bird1
 
 # 视频的地址
 # 视频的序列帧地址 （把帧文件中的序号换成%0xd，其中x为序号的位数，如"jay0001chen.jpg",替换为"jay%04dchen.jpg"）
-videoPath = ./DataSet/OTB/BlurBody/img/%04d.jpg
+videoPath = ./DataSet/VOT/birds1/%08d.jpg
 
-#groundtruth文件路径
-groundtruthPath = ./DataSet/OTB/BlurBody/groundtruth_rect.txt
+# groundtruth文件路径
+groundtruthPath = ./DataSet/VOT/birds1/groundtruth.txt
 
-#precision Rate图的保存路径
-precisionRateDiagramSavingPath = ./DataSet/OTB/BlurBody/
+# precision Rate图的保存路径
+precisionRateDiagramSavingPath = ./DataSet/VOT/birds1/
 
-#success Rate图的保存路径
-successRateDiagramSavingPath = ./DataSet/OTB/BlurBody/
+# success Rate图的保存路径
+successRateDiagramSavingPath = ./DataSet/VOT/birds1/
+
+# 数据集的格式是否为 XYWidthHeght（另一种为p1 p2 p3 p4)
+XYWidthHeight = 0
+
 
 # quiet mode disables all visual output (for experiments).
 quietMode = 0

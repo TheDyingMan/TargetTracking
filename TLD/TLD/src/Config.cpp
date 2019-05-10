@@ -107,6 +107,7 @@ Config::Config(const std::string& path)
 		else if (name == "groundtruthPath") iss >> groundtruthPath;
 		else if (name == "precisionRateDiagramSavingPath") iss >> precisionRateDiagramSavingPath;
 		else if (name == "successRateDiagramSavingPath") iss >> successRateDiagramSavingPath;
+		else if (name == "XYWidthHeight") iss >> XYWidthHeight;
 	}
 }
 
@@ -181,6 +182,7 @@ ostream& operator<< (ostream& out, const Config& conf)
 	out << "  groundtruthPath    = " << conf.groundtruthPath << endl;
 	out << "  precisionRateDiagramSavingPath  = " << conf.precisionRateDiagramSavingPath << endl;
 	out << "  successRateDiagramSavingPath    = " << conf.successRateDiagramSavingPath << endl;
+	out << "  XYWidthHeiht		 = " << conf.XYWidthHeight << endl;
 	for (int i = 0; i < (int)conf.features.size(); ++i)
 	{
 		out << "  feature " << i << endl;
